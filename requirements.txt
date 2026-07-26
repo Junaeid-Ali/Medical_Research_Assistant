@@ -1,0 +1,78 @@
+# ==========================
+# Core RAG Framework
+# ==========================
+langchain>=0.3.27
+langchain-community>=0.3.27
+langchain-core>=0.3.74
+langchain-text-splitters>=0.3.9
+
+# ==========================
+# Embeddings
+# ==========================
+langchain-huggingface>=0.3.1
+sentence-transformers>=5.1.0
+transformers>=4.55.0
+torch>=2.8.0
+
+# ==========================
+# Vector Database
+# ==========================
+chromadb>=1.0.20
+faiss-cpu>=1.11.0
+
+# ==========================
+# PDF Processing
+# ==========================
+pypdf>=6.0.0
+pymupdf>=1.26.4
+unstructured>=0.18.11
+
+# ==========================
+# Environment Variables
+# ==========================
+python-dotenv>=1.1.1
+
+# ==========================
+# LLM Providers
+# ==========================
+langchain-google-genai>=2.1.10
+google-generativeai>=0.8.5
+
+# Optional OpenAI Support
+# openai>=1.100.2
+# langchain-openai>=0.3.31
+
+# ==========================
+# API & Frontend
+# ==========================
+streamlit>=1.49.0
+fastapi>=0.116.1
+uvicorn>=0.35.0
+
+# ==========================
+# Utilities
+# ==========================
+numpy>=2.3.2
+pandas>=2.3.2
+tqdm>=4.67.1
+
+# ==========================
+# Evaluation (Optional)
+# ==========================
+ragas>=0.3.2
+deepeval>=3.5.7
+
+# ==========================
+# Visualization
+# ==========================
+plotly>=6.3.0
+
+# ==========================
+# Token Counting
+# ==========================
+tiktoken>=0.11.0
+
+# ==========================
+# Logging
+# ==========================
+loguru>=0.7.3
