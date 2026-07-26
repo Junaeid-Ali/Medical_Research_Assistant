@@ -28,6 +28,8 @@ langchain-mistralai>=0.1.0
 pypdf>=6.0.0
 pymupdf>=1.26.4
 unstructured>=0.18.11
+pyarrow>=11.0.0
+datasets>=2.14.0
 
 # ==========================
 # Environment Variables
